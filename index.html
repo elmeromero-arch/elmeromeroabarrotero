@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El mero mero abarrotero — Crece tu tiendita</title>
+  <meta name="description" content="Consejos aterrizados y herramientas simples para que tu tiendita venda más. Únete a la banda abarrotera.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+
+  <!-- ===== Header transparente ===== -->
+  <header class="mini-header" id="miniHeader" aria-label="Principal">
+    <div class="wrap">
+      <!-- Marca -->
+      <a class="brand-min" href="./" aria-label="El mero mero abarrotero">
+        <img src="img/logo.png" alt="Logotipo El mero mero abarrotero">
+        <span>El mero mero abarrotero</span>
+      </a>
+
+      <!-- Navegación -->
+      <nav class="top-links" aria-label="Navegación principal">
+        <a href="./" class="active">Inicio</a>
+        <a href="#guia" id="go-guia">Guía</a>
+        <a href="#contacto" id="go-contacto">Contacto</a>
+      </nav>
+
+      <!-- Menú móvil -->
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav id="mobileNav" class="mobile-nav" hidden>
+      <a href="./" class="active">Inicio</a>
+      <a href="#guia" id="go-guia-m">Guía</a>
+      <a href="#contacto" id="go-contacto-m">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero-new" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="copy">
+        <span class="chip">Comunidad • MX</span>
+        <h1 id="hero-title">
+          Haz que tu <span class="grad">tiendita</span> deje<br>
+          más lana sin enredos
+        </h1>
+        <p class="lead">
+          Tips prácticos, formatos listos y una guía gratis pa’ ordenar compras, precios y exhibición.
+        </p>
+        <div class="cta-row">
+          <a class="btn solid" href="#guia" id="cta-guia">Descargar Guía</a>
+          <a class="btn ghost" href="#contacto" id="cta-contacto">Escríbenos</a>
+        </div>
+
+        <ul class="hero-keys" role="list">
+          <li>📦 Pedidos sin quedarte corto</li>
+          <li>💵 Márgenes claros y defendibles</li>
+          <li>🧱 Exhibición que sí rota</li>
+        </ul>
+      </div>
+
+      <div class="illu" aria-hidden="true">
+        <svg class="blob" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#13a35a"/>
+              <stop offset="100%" stop-color="#0ecc6a"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#g1)" d="M449,315Q442,380,387,427Q332,474,264,492Q196,510,138,466Q80,422,68,352Q56,282,96,224Q136,166,196,130Q256,94,327,106Q398,118,439,174Q480,230,449,315Z"/>
+        </svg>
+        <div class="callout">
+          <span class="badge">Nuevo</span>
+          <h3>Guía del Abarrotero</h3>
+          <ul>
+            <li>Calculadora de margen</li>
+            <li>Checklist de frentes</li>
+            <li>Plantilla de pedidos</li>
+          </ul>
+          <a class="btn dark" href="#guia" id="cta-guia-2">Ver ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Mosaico ===== -->
+  <section class="mosaic" aria-labelledby="beneficios-title">
+    <div class="wrap">
+      <h2 id="beneficios-title" class="center">Lo que ganas con nosotros</h2>
+      <div class="grid-3">
+        <div class="tile">
+          <span class="emoji" aria-hidden="true">🧮</span>
+          <h3>Márgenes bajo control</h3>
+          <p>Precios claros pa’ no perderle ni un centavo en la caja.</p>
+        </div>
+        <div class="tile">
+          <span class="emoji" aria-hidden="true">🧾</span>
+          <h3>Formatos listos</h3>
+          <p>Pedidos, inventario y etiquetas sin batallar con fórmulas.</p>
+        </div>
+        <div class="tile">
+          <span class="emoji" aria-hidden="true">🧱</span>
+          <h3>Exhibición que rota</h3>
+          <p>Tips simples para que la mercancía se mueva diario.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Cómo ayudamos ===== -->
+  <section class="how" aria-labelledby="como-title">
+    <div class="wrap">
+      <h2 id="como-title" class="center">¿Cómo te ayudamos?</h2>
+
+      <article class="row alt">
+        <div class="col text">
+          <h3>Compra con cabeza</h3>
+          <p>Evita sobrestock y merma. Calcula cuánto pedir con una regla fácil y aterrizada a tu tienda.</p>
+          <a class="link" href="#guia">Abrir cálculo rápido →</a>
+        </div>
+        <div class="col media"><div class="ghost-box">💳 proveedor<br>📦 pedido sugerido</div></div>
+      </article>
+
+      <article class="row">
+        <div class="col media"><div class="ghost-box">🏷️ precio<br>🔢 margen %</div></div>
+        <div class="col text">
+          <h3>Defiende tu margen</h3>
+          <p>Sube precios con argumento: costo, competencia y margen objetivo en una sola hoja.</p>
+          <a class="link" href="#guia">Ver plantilla de precios →</a>
+        </div>
+      </article>
+
+      <article class="row alt">
+        <div class="col text">
+          <h3>Exhibe pa’ vender</h3>
+          <p>Frentes, alturas y orden. Un checklist corto para que el estante se vea lleno, claro y vendible.</p>
+          <a class="link" href="#guia">Descargar checklist →</a>
+        </div>
+        <div class="col media"><div class="ghost-box">🧱 planograma<br>✅ checklist</div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Sección Guía (ancla) ===== -->
+  <section id="guia" class="banner" aria-labelledby="guia-title">
+    <div class="wrap banner-row">
+      <div>
+        <h3 id="guia-title">Empieza hoy mismo</h3>
+        <p class="muted">Baja la guía gratis y prueba los formatos. Sin registro complicado.</p>
+      </div>
+      <a class="btn solid lg" href="#">Bajar la guía</a>
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto" class="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 id="contact-title">Contacto</h2>
+        <p class="muted">¿Dudas, ideas o quieres sumarte a la banda? Escríbenos.</p>
+      </div>
+      <form class="contact-form" aria-label="Formulario de contacto">
+        <label>
+          <span>Nombre</span>
+          <input type="text" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          <span>Correo</span>
+          <input type="email" placeholder="tunombre@correo.com" required>
+        </label>
+        <label class="full">
+          <span>Mensaje</span>
+          <textarea rows="4" placeholder="¿Cómo te ayudamos?" required></textarea>
+        </label>
+        <button class="btn solid" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="foot">
+    <div class="wrap foot-row">
+      <small>© 2025 El mero mero abarrotero</small>
+      <nav class="foot-links" aria-label="Legal">
+        <a href="#">Aviso de privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Cookies</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
